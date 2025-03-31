@@ -5,6 +5,22 @@
     <title>Title</title>
 </head>
 <body>
+<h2>Sum of dice</h2>
+<p id="target"></p>
+<script>
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max);
+    }
 
+    const dicenumstr = prompt("Give me the number of dice")
+    const dicenum = parseInt(dicenumstr)
+    let totalsum = 0
+    for (let i = 0; i < dicenum; i++) {
+      const diceeye = getRandomInt(6)
+      totalsum += diceeye
+
+    }
+    document.querySelector('#target').innerHTML = 'Total sum of all ' + dicenum + ' thrown dice is ' + totalsum
+</script>
 </body>
 </html>
