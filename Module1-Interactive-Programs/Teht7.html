@@ -16,8 +16,8 @@
     const dicenum = parseInt(dicenumstr)
     let totalsum = 0
     for (let i = 0; i < dicenum; i++) {
-      const diceeye = getRandomInt(6)
-      totalsum += diceeye
+      const diceEye = getRandomInt(6)
+      totalsum += diceEye
 
     }
     document.querySelector('#target').innerHTML = 'Total sum of all ' + dicenum + ' thrown dice is ' + totalsum
