@@ -10,8 +10,9 @@ while (loop) {
     loop = false;
   }
 }
-numbers.sort().reverse();
+numbers.sort((a, b) => b - a, {});
 for (let i of numbers) {
   console.log(i);
 }
+
 
