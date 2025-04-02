@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Names of dogs</h2>
+<ul id="dogs"></ul>
+<script>
+  const dogs = document.getElementById('dogs');
+  const dogsArray = [];
+  for (let i = 0; i < 6; i++) {
+    const dogName = prompt('Give me the name of a dog');
+    dogsArray.push(dogName);
+  }
+  dogsArray.sort().reverse();
+  for (let i of dogsArray) {
+    const n = document.createElement('li');
+    n.textContent = i.toString();
+    dogs.appendChild(n);
+  }
+
+</script>
+
+</body>
+</html>

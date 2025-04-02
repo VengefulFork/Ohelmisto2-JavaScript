@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>String thing</h2>
+<p id='target'></p>
+<script>
+
+  const names = ['Johnny', 'DeeDee', 'Joey', 'Marky'];
+
+  function concat(names) {
+    let namesString = '';
+    for (let i of names) {
+      namesString += i;
+    }
+    return namesString;
+  }
+
+  document.querySelector('#target').innerHTML = concat(names);
+</script>
+
+</body>
+</html>

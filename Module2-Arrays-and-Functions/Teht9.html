@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>'Title'</title>
+</head>
+<body>
+<h2>Array splitter thing</h2>
+<p>Output is in console</p>
+<script>
+
+  const numbers = [2, 7, 4];
+
+  function even(numbers) {
+    const evenList = [];
+    for (let i of numbers) {
+      if (i % 2 === 0) {
+        evenList.push(i);
+      }
+    }
+    return evenList;
+  }
+
+  console.log(numbers);
+  console.log(even(numbers));
+
+</script>
+</body>
+</html>
