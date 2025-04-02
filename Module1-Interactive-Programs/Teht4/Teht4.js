@@ -1,7 +1,7 @@
 'use strict';
 
 function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
+  return Math.floor(Math.random() * max) + 1;
 }
 
 const num = getRandomInt(4);
