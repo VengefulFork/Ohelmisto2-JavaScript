@@ -41,7 +41,7 @@
     }
     candidates.sort((a, b) => b.votes - a.votes,
     );
-    console.log('Winner of the election is ' + candidates[0]['name'] + ' with ' + candidates[0]['votes']);
+    console.log('Winner of the election is ' + candidates[0]['name'] + ' with ' + candidates[0]['votes'] + ' votes.');
     console.log('Results are: ');
     candidates.forEach((i) => {
       console.log(`Name of candidate: ${i.name} Votes:${i.votes}`);
