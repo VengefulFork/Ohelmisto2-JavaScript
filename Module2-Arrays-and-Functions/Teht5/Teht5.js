@@ -13,7 +13,7 @@ while (loop) {
 
   }
 }
-numbers.sort();
+numbers.sort((a, b) => a - b, {});
 for (let i of numbers) {
   console.log(i);
 }
