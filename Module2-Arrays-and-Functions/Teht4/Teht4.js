@@ -3,7 +3,7 @@
 let loop = true;
 const numbers = [];
 while (loop) {
-  const number = parseInt(prompt('Give me a number'));
+  const number = parseInt(prompt('Give me a number or 0 to stop'));
   if (number !== 0) {
     numbers.push(number);
   } else if (number === 0) {
