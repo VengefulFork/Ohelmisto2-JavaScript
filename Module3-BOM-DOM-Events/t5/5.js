@@ -118,23 +118,6 @@ for (let i of picArray) {
 
 }
 
-// const p = document.createElement('h2');
-// p.text(i['title']);
-//
-// const a = document.createElement('figure');
-// const b = document.createElement('img');
-// b.src = i['image']['medium'];
-// b.alt = i['title'];
-// const c = document.createElement('figcaption');
-// c.text = i['caption'];
-// a.appendChild(b);
-// a.appendChild(c);
-//
-// const d = document.createElement('p');
-// d.text = i['description'];
-// const n = document.createElement('article');
-// n.classList.add('card');
-// section.appendChild(n);
 
 
 
