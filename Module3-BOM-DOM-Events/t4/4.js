@@ -13,3 +13,12 @@ const students = [
     id: '5423679',
   },
 ];
+
+const b = document.getElementById('target')
+
+for (let i of students) {
+  const n = document.createElement('option')
+  n.value = i['id'];
+  n.textContent = i['name'].toString();
+  b.appendChild(n);
+}
