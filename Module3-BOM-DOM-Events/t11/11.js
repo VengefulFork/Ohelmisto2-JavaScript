@@ -130,6 +130,7 @@ for (let a of article) {
     for (let b of picArray) {
       if (b['title'] === name) {
         img.src = b['image']['large'];
+        img.alt = b['title'];
       }
     }
   });
