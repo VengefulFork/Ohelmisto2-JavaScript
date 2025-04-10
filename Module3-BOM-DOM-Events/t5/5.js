@@ -110,8 +110,8 @@ for (let i of picArray) {
   const figCaption = document.createElement('figcaption');
   figCaption.textContent = i['caption'];
   figure.appendChild(image);
+  figure.appendChild(figCaption);
   article.appendChild(figure);
-  article.appendChild(figCaption);
   const p = document.createElement('p');
   p.textContent = i['description'];
   article.appendChild(p);
