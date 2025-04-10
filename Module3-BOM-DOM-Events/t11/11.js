@@ -120,7 +120,7 @@ for (let i of picArray) {
 
 const article = document.querySelectorAll('.card');
 const dialog = document.querySelector('dialog');
-const span = dialog.querySelector('span')
+const span = dialog.querySelector('span');
 
 for (let a of article) {
   const name = a.querySelector('h2').textContent;
@@ -138,11 +138,5 @@ for (let a of article) {
     dialog.close();
   });
 }
-
-// article.forEach(article => {
-//   article.addEventListener('click', function(evt){
-//   alert('You have pressed the button')
-// })
-// })
 
 
